@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	margin: 1em 0 1em;
+}
+
+a {
+	text-decoration: none;
+}
+.btn {
+	text-align: center;
+	background-color: black;
+	color: white;
+	display: inline-block;
+	padding: 0.5em 1.2em;
+	margin-bottom: 1em;
+}
+
+.btn:focus,
+.btn:hover,
+.btn:active {
+	transform: scale(1.05);
+}
+
+.grid-container {
+	text-align: center;
+	display: inline-grid;
+	width: 75vw;
+	height: 75vw;
+	max-width: 490px;
+	max-height: 490px;
+	border: 5px solid black;
+	overflow: hidden;
+}
+
+.grid-element {
+	border: 1px solid black;
+}
